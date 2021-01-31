@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="AI_riddle.Page2"
+              BackgroundImageSource="finalbg1.jpg">
+    <ContentView>
+        <StackLayout>
+            <Grid>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="50"  />
+                    <RowDefinition Height="50"  />
+                    <RowDefinition Height="50"  />
+                    <RowDefinition Height="50"  />
+                    <RowDefinition Height="50"  />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" 
+                       
+                       Grid.ColumnSpan="5"
+                    Text="Use your camera to answer the question"  FontSize="20"
+                       HorizontalOptions="Center"
+                       TextColor="Yellow"
+                       VerticalOptions="CenterAndExpand" FontAttributes="Bold,Italic"></Label>
+
+                <Label Text="{Binding Question}"    Grid.Row="1"  Grid.ColumnSpan="5"
+                    FontSize="17"
+                       HorizontalOptions="Center"
+                       TextColor="Yellow"
+                       VerticalOptions="CenterAndExpand" FontAttributes="Bold,Italic"/>
+
+
+
+
+             
+               
+                <Image Grid.Row="3"
+                       x:Name="imgCam"
+                       HorizontalOptions="CenterAndExpand" 
+                        VerticalOptions="CenterAndExpand"
+                       Grid.ColumnSpan="5"
+                       HeightRequest="100"
+                       WidthRequest="100"
+                    ></Image>
+                <buttons:SfButton Grid.Row="4"
+                      
+                       BackgroundImage="cam"
+                        
+                       CornerRadius="20"
+                       HeightRequest="100"
+                             WidthRequest="73"
+                          HorizontalOptions="CenterAndExpand" 
+                        VerticalOptions="CenterAndExpand"
+                        Grid.ColumnSpan="5" 
+                         Clicked="CaptureClicked" Margin="0" >
+                </buttons:SfButton>
+                <buttons:SfButton Grid.Row="6"
+                    CornerRadius="20"
+                      Text="Submit"
+                        TextColor="Yellow"
+                        FontSize="23"
+                        FontAttributes="Italic,Bold"
+                             BackgroundColor="#0e011b"
+                             Grid.ColumnSpan="5"
+                              HorizontalOptions="CenterAndExpand"
+                        WidthRequest="100"
+                         
+                        Clicked="SubmitClicked" Padding="0" />
+
+
+
+            </Grid>
+            <Editor x:Name="UploadedUrl" Text="Image URL:" IsEnabled="True" IsVisible="False" />
+
+        </StackLayout>
+    </ContentView>
+</ContentPage>

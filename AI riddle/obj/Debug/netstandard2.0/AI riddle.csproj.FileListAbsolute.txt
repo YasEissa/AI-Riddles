@@ -1,0 +1,16 @@
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\AI riddle.csprojAssemblyReference.cache
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\bin\Debug\netstandard2.0\AI riddle.deps.json
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\bin\Debug\netstandard2.0\AI riddle.dll
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\bin\Debug\netstandard2.0\ref\AI riddle.dll
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\bin\Debug\netstandard2.0\AI riddle.pdb
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\page1.xaml.g.cs
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\page2.xaml.g.cs
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\AI riddle.AssemblyInfoInputs.cache
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\AI riddle.AssemblyInfo.cs
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\AI riddle.csproj.CoreCompileInputs.cache
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\AI riddle.dll
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\ref\AI riddle.dll
+C:\Users\Yasser\source\repos\AI riddle\AI riddle\obj\Debug\netstandard2.0\AI riddle.pdb
